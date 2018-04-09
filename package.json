@@ -1,0 +1,33 @@
+{
+  "name": "huli-hb",
+  "version": "1.0.0",
+  "description": "Express midleware to test database connectivity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonBattery/huli-hb.git"
+  },
+  "keywords": [
+    "huli",
+    "heartbeat",
+    "mysql",
+    "bricks",
+    "express",
+    "endpoint",
+    "midleware",
+    "dependency-injection"
+  ],
+  "author": "Crystalpig Conclave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DonBattery/huli-hb/issues"
+  },
+  "homepage": "https://github.com/DonBattery/huli-hb#readme",
+  "dependencies": {
+    "huli-db": "^1.0.1",
+    "sql-bricks": "^2.0.3"
+  }
+}
